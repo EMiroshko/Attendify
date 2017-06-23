@@ -1,7 +1,7 @@
-#Welcome to my test task for Attendify
-###I'm happy to present my work to you
+# Welcome to my test task for Attendify
+### I'm happy to present my work to you
 
-###Gulp install
+### Gulp install
 
 First of all you need to have NodeJs on your PC. You can download it by [this link](https://nodejs.org/en/).
 And [here](http://www.creative-seo.ru/blog/ustanovka-node-js-na-windows/) is a little russian instruction
