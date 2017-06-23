@@ -1,0 +1,71 @@
+@import "buttons";
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+  font: 14px Arial;
+  color: $brand-color;
+
+  .header {
+    text-align: center;
+    text-shadow: 1px 1px 1px #ccc;
+  }
+
+  .title {
+    font-size: 18px;
+    color: $warning-color;
+    text-shadow: 1px 1px 1px #ccc;
+  }
+
+  .gulp-install {
+    margin-top: 20px;
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      padding: 5px;
+    }
+
+    .command-line-example {
+      background-color: #ddd;
+      color: $success-color;
+      margin: 5px 0;
+      padding: 5px;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+  }
+
+  .buttons-description-title {
+    margin: 20px;
+  }
+
+  .buttons-content {
+    margin-top: 20px;
+    .buttons-description {
+      width: 600px;
+      margin: 20px 0 20px 30px;
+
+      .button-code {
+        margin: 10px 5px;
+        width: 400px;
+        color: $danger-color;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      &.buttons-sizes {
+        width: 850px;
+      }
+    }
+    .buttons-view {
+      float: left;
+      margin-left: 20px;
+    }
+
+  }
+
+
+}

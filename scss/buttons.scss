@@ -1,0 +1,80 @@
+@import "variables";
+@import "mixins";
+
+.btn {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  color: #ccc;
+  vertical-align: middle;
+
+  &--brand {
+    @include button-color($brand-color, $white-color);
+  }
+
+  &--neutral {
+    @include button-color($gray-color, $neutral-color);
+  }
+
+  &--success {
+    @include button-color($success-color, $white-color);
+  }
+
+  &--warning {
+    @include button-color($warning-color, $white-color);
+  }
+
+  &--danger {
+    @include button-color($danger-color, $white-color);
+  }
+
+  &--small {
+    width: 150px;
+    padding: 0 12px;
+    font: 14px arial;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  &--medium {
+    width: 250px;
+    padding: 0 12px;
+    font: 16px arial;
+    height: 36px;
+    line-height: 36px;
+  }
+
+  &--large {
+    width: 400px;
+    padding: 0 12px;
+    font: 18px arial;
+    height: 42px;
+    line-height: 42px;
+  }
+
+  &--block {
+    display: block;
+    &.btn--center {
+      margin: 5px auto;
+    }
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
+
+  &--no-margin {
+    margin: 0;
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+
+}
